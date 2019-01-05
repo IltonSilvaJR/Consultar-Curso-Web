@@ -15,3 +15,9 @@ console.log("Resultado 02: "+soma(1, 2))
 const subtracao = (a, b) => a-b
 
 console.log("Resultado 03: "+subtracao(5, 5))
+
+/*
+Função de um unico paramentro
+*/
+const imprimir2 = a => console.log(a)
+imprimir2('Legal !!!')
